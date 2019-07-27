@@ -19,7 +19,7 @@ Call SVs using TitanCNA
 ```
 Call SVs using Delly
 ```
-sbatch -N 1 -n 1 -p med sample PREFIX SUFFIX control1 control2
+sbatch -N 1 -n 1 -p med SL_Dellyv2_phased.sh sample PREFIX SUFFIX control1 control2
 ```
 Call SVs using Lumpy
 ```
